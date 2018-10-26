@@ -1,0 +1,15 @@
+{
+    "name": "vagrant/c-repo",
+    "repositories": [{
+      "type": "composer",
+      "url": "http://localhost:8001"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "vagrant/a-repo": "dev-master",
+        "vagrant/b-repo": "dev-master"
+    },
+    "config": {
+      "secure-http": false
+    }
+}
